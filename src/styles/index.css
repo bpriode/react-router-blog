@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+.form-group{
+  text-align: center;
+  margin-top: 20px;
+}
+
+input{
+  margin-bottom: 15px;
+  width: 300px;
+  height: 40px;
+}
+
+textarea{
+  height: 100px;
+  width:300px;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 3px;
+
+}
