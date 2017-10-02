@@ -14,10 +14,10 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
         <Switch>
-          <Route exact path='/home' component={Home}/>
+          <Route exact path='/' component={Home}/>
           <Route path='/create' component={CreatePost}/>
-          <Route path='/postList' component={PostList}/>
           <Route path='/postList/:id' component={ShowPost}/>
+          <Route path='/postList' component={PostList}/>
         </Switch>
     </BaseLayout>
 </BrowserRouter>, document.getElementById('root'));

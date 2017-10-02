@@ -21,10 +21,10 @@ export default class ShowPost extends Component{
 
   render() {
     return (
-      <div className="card w-50">
+      <div className="card w-50 text-center">
         <div className="card-block">
-          <p className="card-text">{this.state.post.blogTitle}</p>
-          <p className='card-text'>{this.state.post.authorName}</p>
+          <p className="card-text">Title:{this.state.post.blogTitle}</p>
+          <p className='card-text'>By: {this.state.post.authorName}</p>
           <p className="card-text">{this.state.post.blogEntry}</p>
         </div>
       </div>
